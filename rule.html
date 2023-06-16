@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Rule</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/3425938.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css" />
+    <!--載入adminlte.min.css-->
+    <link type="text/css" rel="stylesheet" href="css/adminlte.min.css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- 選單-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="index.html">Content</a></li>
+            <li class="sidebar-nav-item"><a href="index.html">Home</a></li>
+            <li class="sidebar-nav-item"><a href="game.html">Roulette Game</a></li>
+            <li class="sidebar-nav-item"><a href="history.html">Player Information</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Rule</a></li>
+        </ul>
+    </nav>
+    <div class="rule-content-header"></div>
+    <section class="content">
+        <div class="row mb-2">
+            <div class="col-md-7">
+                <div class="card card-dark">
+                    <div class="card-header">
+                        <h2 class="card-title"><b>玩法介紹</b></h2>
+                        <div class="card-tools"></div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <table class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th width="10%" style="text-align:center;">步驟</th>
+                                            <th style="text-align:center;">介紹</th>
+                                        </tr>
+                                        <tr>
+                                            <th style=" text-align:center;vertical-align:middle;">Step 1</th>
+                                            <td>
+                                                <figure>
+                                                    <figcaption>選擇下注方式及籌碼數</figcaption>
+                                                    <div class="pic"><img src="./img/step1.gif" style="width:80%; float:center;"/></div>
+                                                </figure>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="text-align:center;vertical-align:middle;">Step 2</th>
+                                            <td>
+                                                <figure>
+                                                    <figcaption>確認/刪除下注</figcaption>
+                                                    <div class="pic"><img src="./img/step2.gif" style="width:80%; float:center;"/></div>
+                                                </figure>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="text-align:center;vertical-align:middle;">Step 3</th>
+                                            <td>
+                                                <figure>
+                                                    <figcaption>開始下注</figcaption>
+                                                    <div class="pic"><img src="./img/step3.gif" style="width:80%; float:center;"/></div>
+                                                </figure>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="text-align:center;vertical-align:middle;">Step 4</th>
+                                            <td>
+                                                <figure>
+                                                <figcaption>玩家資訊頁面</figcaption>
+                                                <div class="pic"><img src="./img/step4.gif" style="width:80%; float:center;"/></div>
+                                                </figure>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="allWinners"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-success">
+                    <div class="card-header">
+                        <h2 class="card-title"><b>投注介紹</b></h2>
+                        <div class="card-tools"></div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                你的目標是猜輪盤轉動過後，會停在哪一個數字或顏色上。
+                                <br>投注的賠率及方式有以下幾種：
+                                <table class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th style="text-align:center;">賠率</th>
+                                            <th style="text-align:center;">投注方式</th>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3" style="text-align:center;vertical-align:middle; width:50%;">
+                                                1:1<br>（押1個籌碼獲勝拿回2個籌碼，輸掉則賠掉押的籌碼）</th>
+                                            <td>紅色 （red） 或黑色 （black）</td>
+                                        </tr>
+                                        <tr>
+                                            <td>奇數 （odds） 或偶數 （even）</td>
+                                        </tr>
+                                        <tr>
+                                            <td>小 （1 TO 18） 或大 （19 TO 36）</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2" style="text-align:center;vertical-align:middle;">
+                                                1:2<br>（押1個籌碼獲勝拿回3個籌碼，輸掉則賠掉押的籌碼）</th>
+                                            <td>連續的12個數字，有三組（1~12, 13~24, 25~36）</td>
+                                        </tr>
+                                        <tr>
+                                            <td>不連續的12個數字，三列 2 TO 1</td>
+                                        </tr>
+                                        <tr>
+                                            <th style="text-align:center;vertical-align:middle;">
+                                                1:35<br>（押1個籌碼獲勝拿回36個籌碼，輸掉則賠掉押的籌碼）</th>
+                                            <td style="vertical-align:middle;">單個數字</td>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="js/adminlte.min.js"></script>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
