@@ -1,0 +1,186 @@
+
+
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  small {
+    font-size: 80%;
+  }
+
+  fieldset {
+    padding: .35em .75em .625em;
+  }
+
+  legend {
+    display: table;
+    /* 1 */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+  }
+
+.bet{
+    
+    position:absolute;
+    
+
+
+}
+.btn-r{
+    position: relative;
+    background-color: #AE0000;
+    color: white;
+    transition: 0.25s;
+    height: 80px;
+    width: 8%;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.btn-r:hover {
+    background-color: #CE0000;
+    color: #ffffff;
+}
+
+.btn-b{
+    position: relative;
+    background-color: #3C3C3C;
+    color: white;
+    transition: 0.25s;
+    height: 80px;
+    width: 8%;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;  
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.btn-b:hover {
+    background-color: #4F4F4F;
+    color:#ffffff;
+}
+
+.btn-g{
+    position: relative;
+    background-color: #01B468;
+    color: white;
+    transition: 0.25s;
+    height: 80px;
+    width: 50px;
+    line-height: 80px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;  
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+
+}
+.btn-g:hover{
+    background-color: #02C874;
+    color: #ffffff;
+}
+
+.btn-0{
+    position:absolute;
+    right:65%;
+    background-color: 	#01B468;
+    height: 240px;
+    width: 70px;
+    line-height: 240px;
+    text-align: center;
+    font-size: 18px; 
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.btn-0:hover{
+    color: #ffffff;
+}
+
+.btn-12{
+    position: relative;
+    background-color: #01B468;
+    color: white;
+    transition: 0.25s;
+    height: 50px;
+    width: 210px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;  
+    display: inline-block;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.btn-12:hover{
+    background-color: #02C874;
+    color: #ffffff;
+}
+
+.btn-even{
+    position: relative;
+    background-color: #01B468;
+    color: white;
+    transition: 0.25s;
+    height: 50px;
+    width: 103.5px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;  
+    display: inline-block;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-left: -1px;
+    margin-right: -1px;
+
+}
+.btn-even:hover{
+    background-color: #02C874;
+    color: #ffffff;
+}
+
+.bet-area{
+    position: absolute;
+    top:10%;
+    right:50%;
+    white-space:nowrap;
+}
+
+.bet a.selected{
+    background-color: #1e2899;
+    
+    
+}
