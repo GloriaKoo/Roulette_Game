@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url("/img/bg_png.png");
+  background: url("../img/bg_png.png");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size:60%;
