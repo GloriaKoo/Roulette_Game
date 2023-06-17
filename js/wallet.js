@@ -1,6 +1,6 @@
 var web3;
 var contract = null;
-var contract_address = '0xCD4Af5953CD894bfCc44cE6174511B4602B94D09';
+var contract_address = '0xA5082d0C0612aCc78CF24A887bcded7f2986D919';
 var accounts;
 $(async function () {
     console.log("ethereum", window.ethereum);
